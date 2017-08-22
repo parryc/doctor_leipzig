@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+doctor_leipzig/doctor_leipzig.py
+doctor_leipzig.egg-info/PKG-INFO
+doctor_leipzig.egg-info/SOURCES.txt
+doctor_leipzig.egg-info/dependency_links.txt
+doctor_leipzig.egg-info/requires.txt
+doctor_leipzig.egg-info/top_level.txt
