@@ -14,6 +14,8 @@ setup(
   py_modules=['doctor_leipzig'],
   packages=['doctor_leipzig'],
   license='MIT',
+  author='parryc',
+  author_email='parry@parryc.com',
   keywords='interlinear leipzig glossing gloss markdown',
   install_requires=['markdown>=2.5'],
   classifiers=[
