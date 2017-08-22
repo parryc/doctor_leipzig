@@ -1,15 +1,11 @@
 from setuptools import setup
 import os
 
-def readme():
-  with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.md'), encoding="utf8") as f:
-    return f.read()
-
 setup(
   name='doctor_leipzig',
   version='1.0',
   description='Interlinear (Leipzig Rules) glossing for Markdown',
-  long_description=readme(),
+  long_description='Doctor Lepizig is a set of additional Markdown syntax items that help with constructing interlinear glosses within Markdown pages. Please see the README or website for full API.',
   url='https://github.com/parryc/doctor_leipzig',
   py_modules=['doctor_leipzig'],
   packages=['doctor_leipzig'],
