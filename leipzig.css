@@ -1,0 +1,37 @@
+/*************
+Leipzig
+*************/
+
+.leipzig-alt-font {
+  font-family: monospace;
+}
+
+.leipzig-table tbody tr td {
+  border: none !important;
+  font-family: "CMU", serif;
+}
+
+.leipzig-table td {
+  padding: 0rem 1rem;
+}
+
+.leipzig-num::before {
+  counter-increment: leipzig;
+  content: "(" counters(leipzig, ".") ")"  
+}
+
+.leipzig-morpheme {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  -moz-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum";
+}
+
+.leipzig-source {
+  font-weight: bold;
+}
+
+.leipzig-translation {
+  font-style: italic;
+}
