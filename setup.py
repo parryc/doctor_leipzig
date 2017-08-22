@@ -3,7 +3,7 @@ import os
 
 setup(
   name='doctor_leipzig',
-  version='1.0',
+  version='1.1',
   description='Interlinear (Leipzig Rules) glossing for Markdown',
   long_description='Doctor Lepizig is a set of additional Markdown syntax items that help with constructing interlinear glosses within Markdown pages. Please see the README or website for full API.',
   url='https://github.com/parryc/doctor_leipzig',
